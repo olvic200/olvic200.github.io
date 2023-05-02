@@ -1,0 +1,43 @@
+.header {
+  padding: 25px 0;
+}
+
+.header .header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .menu {
+  display: flex;
+  column-gap: 50px;
+}
+
+.header .menu-contact {
+  display: flex;
+}
+
+.header .header-link {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  letter-spacing: 0.03em;
+}
+
+.header .header-span {
+  color: #2196f3;
+}
+
+.header .menu .menu-link {
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  transition: color 0.3s;
+  transition-timing-function: cubic-bezier(0.29, 0.88, 0.73, 0.19);
+}
+
+.header .menu .menu-link:hover {
+  color: var(--text-blue);
+}
