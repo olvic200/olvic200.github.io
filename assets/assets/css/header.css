@@ -1,6 +1,6 @@
 .header {
   padding: 25px 0;
-  width: 1600px;
+  max-width: 1600px;
   height: 80px;
   border: 2px solid green;
 }

@@ -1,6 +1,6 @@
 .header-down {
   /* position: relative; */
-  width: 1600px;
+  max-width: 1600px;
   height: 580px;
   background-color: var(--text-dark);
   border: 2px solid green;
