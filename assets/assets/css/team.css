@@ -1,0 +1,36 @@
+.ourteam {
+  background: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  border: 2px solid green;
+}
+.ourteam h2 {
+  font-weight: 700;
+  size: 36px;
+  letter-spacing: 3%;
+}
+h3 {
+  font-weight: 500;
+  size: 16px;
+}
+p {
+  font-weight: 400;
+  size: 16px;
+}
+.team {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 360px;
+  margin: 0 auto;
+  margin-left: 215px;
+}
+img {
+  width: 270px;
+  height: 260px;
+}
+.card1 {
+  width: 270px;
+  height: 368px;
+}

@@ -1,0 +1,31 @@
+.footer {
+  width: 1600px;
+  height: 252px;
+  background: black;
+  padding: 60px 215px;
+  color: white;
+  border: 2px solid green;
+}
+
+.footer-logo {
+  color: white;
+  width: 145px;
+  height: 31px;
+  font-weight: 700;
+  size: 26px;
+}
+.footer-span {
+  color: blue;
+}
+footer-nav {
+  width: 145px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-nav a {
+  color: white;
+}
+
+.mail {
+  padding-bottom: 9px;
+}
