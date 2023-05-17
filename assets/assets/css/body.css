@@ -1,9 +1,7 @@
 .header-down {
-  /* position: relative; */
   max-width: 1600px;
   height: 580px;
   background-color: var(--text-dark);
-  border: 2px solid green;
   margin: 0;
 }
 .header-title {
@@ -14,7 +12,7 @@
   color: white;
 }
 .header-button {
-  background-color: blue;
+  background-color: var(--text-blue);
   color: white;
   width: 136px;
   height: 30px;
@@ -25,19 +23,11 @@
 }
 .features {
   display: flex;
-  /* -margin-left: 10px; */
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 200px;
-  /* -margin-bottom: 94px; */
-  border: 2px solid green;
 }
-/* .container {
-  width: 100%;
-  height: 75px;
-  -border: 2px solid green;
-} */
 .feature1 {
   font-weight: 700;
   margin-top: 50px;
@@ -49,26 +39,27 @@
   size: 14px;
 }
 .business-box {
-  width: 100%;
-  height: 307px;
-  margin: 0 215px;
-  border: 2px solid green;
+  position: relative;
+  max-width: 1600px;
+  height: 500px;
 }
 h2 {
-  margin-top: 100px;
+  margin-top: 94px;
   text-align: center;
   font-weight: 700;
   size: 36px;
+  margin-bottom: 50px;
 }
 .box {
-  width: 1600px;
+  position: absolute;
+  -max-width: 1600px;
   height: 386px;
-  -margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 50px;
-  border: 2px solid green;
+  left: 215px;
+  right: 215px;
 }
 .box1 {
   margin-right: 30px;
@@ -84,3 +75,4 @@ h2 {
   width: 370px;
   height: 294px;
 }
+/* new one */
